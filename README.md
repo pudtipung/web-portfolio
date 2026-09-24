@@ -68,4 +68,4 @@ webportfolio/
    - Branch: เลือก **main** (หรือ `master`) และโฟลเดอร์ **/ (root)**
 4. คลิก **Save**
 5. รอประมาณ 1-2 นาที คุณจะได้ URL เว็บไซต์ เช่น:  
-   `https://<your-username>.github.io/<repository-name>/`
+   `https://pudtipung.github.io/web-portfolio/`
