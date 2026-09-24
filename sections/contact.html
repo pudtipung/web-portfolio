@@ -1,0 +1,134 @@
+<!-- =========================================================================
+     CONTACT SECTION COMPONENT
+     ========================================================================= -->
+<section id="contact" class="contact-section">
+  <div class="container">
+    <div class="text-center mb-5 reveal">
+      <span class="section-tag"><i class="fa-solid fa-paper-plane"></i> ช่องทางการติดต่อ</span>
+      <h2 class="section-title">ร่วมงานหรือพูดคุยกับผม</h2>
+      <p class="section-subtitle">
+        เปิดรับโอกาสการฝึกงาน โปรเจกต์ฟรีแลนซ์ หรืองานสร้างสรรค์สื่อนฤมิตทุกรูปแบบ สามารถติดต่อได้ตามช่องทางด้านล่างครับ
+      </p>
+    </div>
+
+    <div class="row g-4 align-items-stretch">
+      <!-- Contact Information & Social Channels -->
+      <div class="col-lg-5 reveal reveal-delay-1">
+        <div class="contact-card">
+          <h3 class="fw-bold mb-3">ข้อมูลติดต่อ</h3>
+          <p class="text-muted mb-4">
+            ส่งอีเมลหรือทักทายผ่านช่องทางโซเชียลมีเดียต่างๆ ผมพร้อมตอบกลับอย่างรวดเร็ว
+          </p>
+
+          <div class="contact-info-list">
+            <!-- Email -->
+            <a href="mailto:your.email@example.com" class="contact-info-item">
+              <div class="contact-icon-box email">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="contact-info-text">
+                <div class="label">Email Address</div>
+                <div class="value">your.email@example.com</div>
+              </div>
+            </a>
+
+            <!-- Facebook -->
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="contact-info-item">
+              <div class="contact-icon-box facebook">
+                <i class="fa-brands fa-facebook-f"></i>
+              </div>
+              <div class="contact-info-text">
+                <div class="label">Facebook</div>
+                <div class="value">facebook.com/yourprofile</div>
+              </div>
+            </a>
+
+            <!-- Instagram -->
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="contact-info-item">
+              <div class="contact-icon-box instagram">
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+              <div class="contact-info-text">
+                <div class="label">Instagram</div>
+                <div class="value">@your.creative.ig</div>
+              </div>
+            </a>
+
+            <!-- GitHub -->
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="contact-info-item">
+              <div class="contact-icon-box github">
+                <i class="fa-brands fa-github"></i>
+              </div>
+              <div class="contact-info-text">
+                <div class="label">GitHub</div>
+                <div class="value">github.com/yourusername</div>
+              </div>
+            </a>
+
+            <!-- Behance -->
+            <a href="https://behance.net" target="_blank" rel="noopener noreferrer" class="contact-info-item">
+              <div class="contact-icon-box behance">
+                <i class="fa-brands fa-behance"></i>
+              </div>
+              <div class="contact-info-text">
+                <div class="label">Behance</div>
+                <div class="value">behance.net/yourprofile</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Interactive Contact Message Form -->
+      <div class="col-lg-7 reveal reveal-delay-2">
+        <div class="contact-card">
+          <h3 class="fw-bold mb-3">ส่งข้อความถึงผม</h3>
+          <p class="text-muted mb-4">
+            กรอกแบบฟอร์มด้านล่างเพื่อส่งข้อความหรือสอบถามรายละเอียดเพิ่มเติม
+          </p>
+
+          <!-- Success Alert Notification -->
+          <div id="formSuccessAlert" class="alert alert-success d-none d-flex align-items-center mb-4 rounded-4 shadow-sm" role="alert">
+            <i class="fa-solid fa-circle-check fs-4 me-3 text-success"></i>
+            <div>
+              <strong>ส่งข้อความสำเร็จ!</strong> ขอบคุณที่ติดต่อเข้ามา ผมจะรีบติดต่อกลับโดยเร็วที่สุดครับ
+            </div>
+          </div>
+
+          <form id="contactForm" novalidate>
+            <div class="row g-3">
+              <div class="col-md-6 form-group">
+                <label for="userName" class="form-label">ชื่อ-นามสกุล <span class="text-danger">*</span></label>
+                <input type="text" class="form-control" id="userName" placeholder="ระบุชื่อของคุณ" required>
+                <div class="invalid-feedback">กรุณากรอกชื่อของคุณ</div>
+              </div>
+
+              <div class="col-md-6 form-group">
+                <label for="userEmail" class="form-label">อีเมล <span class="text-danger">*</span></label>
+                <input type="email" class="form-control" id="userEmail" placeholder="name@example.com" required>
+                <div class="invalid-feedback">กรุณาระบุอีเมลที่ถูกต้อง</div>
+              </div>
+
+              <div class="col-12 form-group">
+                <label for="userSubject" class="form-label">หัวข้อเรื่อง</label>
+                <input type="text" class="form-control" id="userSubject" placeholder="เช่น สอบถามเรื่องการออกแบบเว็บไซต์ / สนใจร่วมงาน">
+              </div>
+
+              <div class="col-12 form-group">
+                <label for="userMessage" class="form-label">ข้อความ <span class="text-danger">*</span></label>
+                <textarea class="form-control" id="userMessage" rows="5" placeholder="พิมพ์ข้อความของคุณที่นี่..." required></textarea>
+                <div class="invalid-feedback">กรุณากรอกข้อความ</div>
+              </div>
+
+              <div class="col-12 mt-4">
+                <button type="submit" class="btn-custom btn-primary-gradient w-100 justify-content-center py-3">
+                  <i class="fa-solid fa-paper-plane"></i> ส่งข้อความ
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="motionBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="40%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#motionBg)" />
+  <!-- Dynamic 3D Isometric Motion shapes -->
+  <g transform="translate(300, 160)">
+    <!-- 3D Cube with Neon Glow -->
+    <!-- Top Face -->
+    <polygon points="0,-60 70,-20 0,20 -70,-20" fill="#38bdf8" opacity="0.9" />
+    <!-- Left Face -->
+    <polygon points="-70,-20 0,20 0,100 -70,60" fill="#0284c7" opacity="0.9" />
+    <!-- Right Face -->
+    <polygon points="0,20 70,-20 70,60 0,100" fill="#fbbf24" opacity="0.95" />
+    <!-- Kinetic Motion Trails -->
+    <ellipse cx="0" cy="110" rx="90" ry="25" fill="none" stroke="#f59e0b" stroke-width="3" stroke-dasharray="12 8" />
+    <ellipse cx="0" cy="-70" rx="60" ry="18" fill="none" stroke="#38bdf8" stroke-width="2" stroke-dasharray="8 6" />
+    <!-- Floating Sparkles -->
+    <polygon points="120,-30 126,-20 136,-20 128,-14 131,-4 120,-10 109,-4 112,-14 104,-20 114,-20" fill="#fbbf24" />
+    <polygon points="-120,30 -114,40 -104,40 -112,46 -109,56 -120,50 -131,56 -128,46 -136,40 -126,40" fill="#38bdf8" />
+  </g>
+  <text x="300" y="320" fill="#ffffff" font-family="'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="20" text-anchor="middle">NEO DIMENSION</text>
+  <text x="300" y="350" fill="#38bdf8" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="middle" letter-spacing="2">3D TITLE SEQUENCE &amp; KINETIC TYPOGRAPHY</text>
+</svg>

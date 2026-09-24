@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="vidBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#b45309" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#vidBg)" />
+  <!-- Video Timeline / Filmstrip Graphic -->
+  <g fill="#1e293b" opacity="0.9">
+    <rect x="50" y="50" width="500" height="230" rx="14" stroke="#38bdf8" stroke-width="2" />
+  </g>
+  <!-- Play Button Glass Icon -->
+  <circle cx="300" cy="165" r="44" fill="#fbbf24" opacity="0.9" />
+  <polygon points="290,145 320,165 290,185" fill="#0f172a" />
+  <!-- Sound Wave / Keyframes Track -->
+  <g stroke="#38bdf8" stroke-width="3" stroke-linecap="round" opacity="0.8">
+    <line x1="80" y1="240" x2="80" y2="255" />
+    <line x1="100" y1="235" x2="100" y2="260" />
+    <line x1="120" y1="225" x2="120" y2="270" />
+    <line x1="140" y1="242" x2="140" y2="253" />
+    <line x1="160" y1="230" x2="160" y2="265" />
+    <line x1="180" y1="220" x2="180" y2="275" />
+    <line x1="200" y1="235" x2="200" y2="260" />
+    <line x1="220" y1="240" x2="220" y2="255" />
+    <line x1="240" y1="228" x2="240" y2="267" />
+    <line x1="260" y1="220" x2="260" y2="275" />
+    <line x1="280" y1="235" x2="280" y2="260" />
+    <line x1="300" y1="240" x2="300" y2="255" />
+    <line x1="320" y1="225" x2="320" y2="270" />
+    <line x1="340" y1="232" x2="340" y2="263" />
+    <line x1="360" y1="220" x2="360" y2="275" />
+    <line x1="380" y1="238" x2="380" y2="257" />
+    <line x1="400" y1="225" x2="400" y2="270" />
+    <line x1="420" y1="230" x2="420" y2="265" />
+    <line x1="440" y1="235" x2="440" y2="260" />
+    <line x1="460" y1="242" x2="460" y2="253" />
+    <line x1="480" y1="225" x2="480" y2="270" />
+    <line x1="500" y1="238" x2="500" y2="257" />
+    <line x1="520" y1="240" x2="520" y2="255" />
+  </g>
+  <rect x="70" y="70" width="75" height="24" rx="12" fill="#ef4444" opacity="0.9"/>
+  <circle cx="85" cy="82" r="4" fill="#ffffff" />
+  <text x="110" y="86" fill="#ffffff" font-size="11" font-family="sans-serif" font-weight="bold">4K HDR</text>
+  <text x="300" y="325" fill="#ffffff" font-family="'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="20" text-anchor="middle">SOLARIS DOCUMENTARY</text>
+  <text x="300" y="355" fill="#fbbf24" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="middle" letter-spacing="2">CINEMATIC EDITING &amp; COLOR GRADING</text>
+</svg>

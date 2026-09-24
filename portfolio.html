@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="th" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio ส่วนตัวสำหรับนักศึกษาสาขาสื่อนฤมิต (Creative Media) - ผลงานและโปรเจกต์">
+  <title>Portfolio | แฟ้มสะสมผลงาน - Creative Media Portfolio</title>
+
+  <!-- Google Fonts: Plus Jakarta Sans & Prompt -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5 CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome 6 CDN Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+  <!-- Custom CSS Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Preloader Animation -->
+  <div id="preloader">
+    <div class="preloader-spinner"></div>
+    <div class="preloader-text">Creative Media Studio</div>
+  </div>
+
+  <!-- =========================================================================
+       1. NAVIGATION BAR
+       ========================================================================= -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <div class="brand-badge">
+          <i class="fa-solid fa-shapes"></i>
+        </div>
+        <span>PORT<span class="brand-accent">FOLIO</span></span>
+      </a>
+
+      <!-- Theme Switcher & Mobile Hamburger -->
+      <div class="d-flex align-items-center gap-2 order-lg-last">
+        <button id="themeToggleBtn" class="theme-toggle-btn" type="button" aria-label="Toggle Dark/Light Mode" title="สลับโหมดมืด/สว่าง">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+
+        <button class="navbar-toggler border-0 shadow-none px-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars-staggered fs-4 text-primary"></i>
+        </button>
+      </div>
+
+      <!-- Nav Links to Separate HTML Files -->
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav gap-lg-2">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"><i class="fa-solid fa-house me-1 d-lg-none"></i> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html"><i class="fa-solid fa-user me-1 d-lg-none"></i> About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="skills.html"><i class="fa-solid fa-bolt me-1 d-lg-none"></i> Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="portfolio.html"><i class="fa-solid fa-briefcase me-1 d-lg-none"></i> Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html"><i class="fa-solid fa-envelope me-1 d-lg-none"></i> Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- =========================================================================
+       PAGE HEADER BANNER
+       ========================================================================= -->
+  <section class="page-header-section">
+    <div class="container reveal">
+      <div class="breadcrumb-custom">
+        <a href="index.html"><i class="fa-solid fa-house me-1"></i> หน้าแรก</a>
+        <span>/</span>
+        <span>ผลงานทั้งหมด</span>
+      </div>
+      <h1 class="page-header-title">แฟ้มสะสม<span class="brand-accent">ผลงานสร้างสรรค์</span></h1>
+      <p class="page-header-desc">
+        รวมผลงานที่ผ่านการคัดสรร ทั้งงานออกแบบภาพลักษณ์แบรนด์ ภาพถ่าย สื่อภาพยนตร์สั้น โมชันกราฟิก และการออกแบบเว็บไซต์
+      </p>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       PORTFOLIO GRID SECTION (6 ITEMS)
+       ========================================================================= -->
+  <section class="portfolio-section py-5">
+    <div class="container">
+      <div class="row g-4">
+        <!-- Item 1: Graphic Design -->
+        <div class="col-md-6 col-lg-4 reveal reveal-delay-1">
+          <div class="portfolio-card">
+            <div class="portfolio-img-box">
+              <img src="assets/images/work-1.svg" alt="Aurora Branding" loading="lazy">
+              <div class="portfolio-overlay">
+                <button type="button" class="btn btn-sm btn-light fw-bold px-3 py-2 rounded-pill view-project-btn" data-id="1">
+                  <i class="fa-solid fa-magnifying-glass-plus me-1"></i> ดูรายละเอียด
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-body">
+              <div class="portfolio-category">Graphic Design</div>
+              <h3 class="portfolio-title">Aurora Brand &amp; Identity</h3>
+              <p class="portfolio-desc">
+                การสร้างสรรค์ภาพลักษณ์แบรนด์เครื่องสำอางออร์แกนิกยุคใหม่ ตั้งแต่การออกแบบโลโก้จนถึงแพ็กเกจจิ้ง
+              </p>
+              <button class="btn-portfolio-view view-project-btn" data-id="1">
+                <span>ดูผลงาน</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 2: Photography -->
+        <div class="col-md-6 col-lg-4 reveal reveal-delay-2">
+          <div class="portfolio-card">
+            <div class="portfolio-img-box">
+              <img src="assets/images/work-2.svg" alt="Urban Perspectives" loading="lazy">
+              <div class="portfolio-overlay">
+                <button type="button" class="btn btn-sm btn-light fw-bold px-3 py-2 rounded-pill view-project-btn" data-id="2">
+                  <i class="fa-solid fa-magnifying-glass-plus me-1"></i> ดูรายละเอียด
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-body">
+              <div class="portfolio-category">Photography</div>
+              <h3 class="portfolio-title">Urban Perspectives</h3>
+              <p class="portfolio-desc">
+                ชุดภาพถ่ายสถาปัตยกรรมและชีวิตคนเมือง ถ่ายทอดมิติของแสงเงาและเส้นสายเรขาคณิตในมุมมองแปลกใหม่
+              </p>
+              <button class="btn-portfolio-view view-project-btn" data-id="2">
+                <span>ดูผลงาน</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 3: Video Editing -->
+        <div class="col-md-6 col-lg-4 reveal reveal-delay-3">
+          <div class="portfolio-card">
+            <div class="portfolio-img-box">
+              <img src="assets/images/work-3.svg" alt="Solaris Sci-Fi Film" loading="lazy">
+              <div class="portfolio-overlay">
+                <button type="button" class="btn btn-sm btn-light fw-bold px-3 py-2 rounded-pill view-project-btn" data-id="3">
+                  <i class="fa-solid fa-magnifying-glass-plus me-1"></i> ดูรายละเอียด
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-body">
+              <div class="portfolio-category">Video Editing</div>
+              <h3 class="portfolio-title">Solaris Sci-Fi Short Film</h3>
+              <p class="portfolio-desc">
+                งานตัดต่อและย้อมสี (Color Grading) ภาพยนตร์สั้นไซไฟ ผสมผสานจังหวะภาพและเสียงที่เร้าอารมณ์
+              </p>
+              <button class="btn-portfolio-view view-project-btn" data-id="3">
+                <span>ดูผลงาน</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 4: Motion Graphic -->
+        <div class="col-md-6 col-lg-4 reveal reveal-delay-1">
+          <div class="portfolio-card">
+            <div class="portfolio-img-box">
+              <img src="assets/images/work-4.svg" alt="Neo Dimension 3D" loading="lazy">
+              <div class="portfolio-overlay">
+                <button type="button" class="btn btn-sm btn-light fw-bold px-3 py-2 rounded-pill view-project-btn" data-id="4">
+                  <i class="fa-solid fa-magnifying-glass-plus me-1"></i> ดูรายละเอียด
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-body">
+              <div class="portfolio-category">Motion Graphic</div>
+              <h3 class="portfolio-title">Neo Dimension 3D Title</h3>
+              <p class="portfolio-desc">
+                การสร้างไตเติลรายการ 3D พร้อมเทคนิค Kinetic Typography มีลูกเล่นแสงนีออนและการเคลื่อนไหวที่มีพลัง
+              </p>
+              <button class="btn-portfolio-view view-project-btn" data-id="4">
+                <span>ดูผลงาน</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 5: UI/UX Design -->
+        <div class="col-md-6 col-lg-4 reveal reveal-delay-2">
+          <div class="portfolio-card">
+            <div class="portfolio-img-box">
+              <img src="assets/images/work-5.svg" alt="FinWave Mobile App" loading="lazy">
+              <div class="portfolio-overlay">
+                <button type="button" class="btn btn-sm btn-light fw-bold px-3 py-2 rounded-pill view-project-btn" data-id="5">
+                  <i class="fa-solid fa-magnifying-glass-plus me-1"></i> ดูรายละเอียด
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-body">
+              <div class="portfolio-category">UI/UX Design</div>
+              <h3 class="portfolio-title">FinWave Mobile Banking</h3>
+              <p class="portfolio-desc">
+                ออกแบบประสบการณ์แอปธนาคารสำหรับคนรุ่นใหม่ วิจัยพฤติกรรมผู้ใช้และทดสอบ User Flow ให้ใช้งานง่าย
+              </p>
+              <button class="btn-portfolio-view view-project-btn" data-id="5">
+                <span>ดูผลงาน</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 6: Web Design -->
+        <div class="col-md-6 col-lg-4 reveal reveal-delay-3">
+          <div class="portfolio-card">
+            <div class="portfolio-img-box">
+              <img src="assets/images/work-6.svg" alt="Creative Agency Web" loading="lazy">
+              <div class="portfolio-overlay">
+                <button type="button" class="btn btn-sm btn-light fw-bold px-3 py-2 rounded-pill view-project-btn" data-id="6">
+                  <i class="fa-solid fa-magnifying-glass-plus me-1"></i> ดูรายละเอียด
+                </button>
+              </div>
+            </div>
+            <div class="portfolio-body">
+              <div class="portfolio-category">Web Design</div>
+              <h3 class="portfolio-title">Creative Agency Web</h3>
+              <p class="portfolio-desc">
+                พัฒนาเว็บไซต์เอเจนซี่แบบ Responsive พร้อมสไตล์ Glassmorphism และลูกเล่นแอนิเมชันที่ทันสมัย
+              </p>
+              <button class="btn-portfolio-view view-project-btn" data-id="6">
+                <span>ดูผลงาน</span>
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Navigation to Contact CTA -->
+      <div class="text-center mt-5 reveal">
+        <p class="text-muted mb-3">ชื่นชอบผลงานหรือสนใจร่วมงานกับผม?</p>
+        <a href="contact.html" class="btn-custom btn-primary-gradient">
+          <i class="fa-solid fa-paper-plane"></i>
+          <span>ติดต่อร่วมงาน (Contact)</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       PORTFOLIO DETAIL MODAL
+       ========================================================================= -->
+  <div class="modal fade" id="portfolioModal" tabindex="-1" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="d-flex align-items-center gap-2">
+            <span id="modalCategory" class="badge rounded-pill bg-primary px-3 py-2">Category</span>
+            <span class="text-muted small">&bull; ปี <span id="modalYear">2026</span></span>
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="rounded-4 overflow-hidden mb-4 shadow-sm">
+            <img id="modalImage" src="" alt="Project Preview" class="w-100">
+          </div>
+          <h3 id="modalTitle" class="fw-bold mb-3">Project Title</h3>
+          <p id="modalDesc" class="text-muted leading-relaxed mb-4">Project Description</p>
+          <div class="p-3 rounded-3 bg-body-tertiary border">
+            <div class="fw-bold small text-uppercase text-muted mb-1"><i class="fa-solid fa-screwdriver-wrench me-1"></i> เครื่องมือที่ใช้:</div>
+            <div id="modalTools" class="fw-semibold text-primary">Tools</div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary rounded-pill px-4" data-bs-dismiss="modal">ปิดหน้าต่าง</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       FOOTER
+       ========================================================================= -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-text">
+        &copy; 2026 My Portfolio
+      </p>
+      <p class="footer-text">
+        Designed by <span class="footer-highlight">Your Name</span> &bull; Creative Media Student
+      </p>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button -->
+  <button id="scrollTopBtn" class="scroll-top-btn" type="button" aria-label="Scroll to top" title="เลื่อนกลับด้านบน">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Bootstrap 5 JavaScript Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom JavaScript File -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
